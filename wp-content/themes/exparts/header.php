@@ -62,51 +62,11 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav main-nav navbar-right">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about-us.html">ABOUT US</a></li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="upcoming-events.html">UPCOMING EVENTS</a></li>
-						<li><a href="other-events.html">OTHER EVENTS</a></li>
-						<li><a href="gallery.html">GALLERY</a></li>
-					</ul>
-				</li>
-
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">LANGUAGE COURSES <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="italian-lessons.html">ITALIAN LESSONS  </a></li>
-						<li><a href="english-lessons.html">ENGLISH LESSONS </a></li>
-					</ul>
-				</li>
-
-
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">LOOKING FOR <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="jobs.html">JOBS </a></li>
-						<li><a href="rooms-for-rent.html">ROOMS FOR RENT</a></li>
-						<li><a href="businesses-services.html">BUSINESSES &amp; SERVICES </a></li>
-					</ul>
-				</li>
-
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">ADVERTISING  <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="sponsorships.html">SPONSORSHIPS  </a></li>
-						<li><a href="classifieds.html">CLASSIFIEDS</a></li>
-					</ul>
-				</li>
-
-
-				<li><a href="blog-press.html">BLOG &amp; PRESS </a></li>
-				<li><a href="login.html">Login</a></li>
-			</ul>
-
-		</div>
+		<?php wp_nav_menu( array(
+				'menu_id' => 'header',
+				'menu_class' => 'nav navbar-nav main-nav navbar-right',
+				'container_class' => 'collapse navbar-collapse',
+		) ); ?>
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container -->

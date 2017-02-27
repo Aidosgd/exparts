@@ -546,45 +546,4 @@
 
 <!--MainBodycontainer-->
 
-<!-- jQuery -->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-<script src="/wp-content/themes/exparts/js/bootstrap/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/wp-content/themes/exparts/js/bootstrap/bootstrap.min.js"></script>
-
-<script src="/wp-content/themes/exparts/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
-
-<!-- Theme JavaScript -->
-<script src="/wp-content/themes/exparts/js/main.js"></script>
-
-<script>
-    $('#slides').superslides({
-        animation: 'fade',
-        play: 5000
-    });
-</script>
-
-<script type="text/javascript">
-    $('.responsive-tabs').responsiveTabs({
-        accordionOn: ['xs', 'sm'] // xs, sm, md, lg
-    });
-</script>
-<script src="/wp-content/themes/exparts/js/jquery.flexslider.js" type="text/javascript"></script>
-<script type="text/javascript">
-    $(window).load(function () {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            animationLoop: false,
-            itemWidth: 320,
-            itemMargin: 0,
-            pausePlay: true,
-            start: function (slider) {
-                $('body').removeClass('loading');
-            }
-        });
-    });
-</script>
-</body>
-
-</html>
+<?php get_footer(); ?>
