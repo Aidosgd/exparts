@@ -63,6 +63,7 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<?php wp_nav_menu( array(
+				'menu' => 'header',
 				'menu_id' => 'header',
 				'menu_class' => 'nav navbar-nav main-nav navbar-right',
 				'container_class' => 'collapse navbar-collapse',

@@ -20,15 +20,21 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+//define('WP_HOME','http://trenazherka.kz/exparts/');
+//define('WP_SITEURL','http://trenazherka.kz/exparts/');
+//define('DB_NAME', 'thettkz_exparts');
 define('DB_NAME', 'exparts');
 
 /** MySQL database username */
+//define('DB_USER', 'thett_exparts');
 define('DB_USER', 'root');
 
 /** MySQL database password */
+//define('DB_PASSWORD', 'sx123sx123');
 define('DB_PASSWORD', '');
 
 /** MySQL hostname */
+//define('DB_HOST', 'srv-db-plesk02.ps.kz:3306');
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
