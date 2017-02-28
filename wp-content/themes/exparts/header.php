@@ -58,7 +58,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand page-scroll" href="#index.html"><img src="/wp-content/themes/exparts/images/logo.png" class="img-responsive"></a>
+			<a class="navbar-brand page-scroll" href="/"><img src="/wp-content/themes/exparts/images/logo.png" class="img-responsive"></a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
