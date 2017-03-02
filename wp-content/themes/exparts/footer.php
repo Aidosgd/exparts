@@ -29,13 +29,7 @@
 
                 <h3>SUBSCRIBE TO Expats living in Rome</h3>
                 <h2>Sign up for our newsletter here</h2>
-                <form action="" method="post">
-                    <div class="NewsletterCont">
-                        <span class="add-on"><i class="fa fa-envelope-o"></i></span>
-                        <input type="text" id="" name="" placeholder="Your@email.com">
-                        <input type="submit" value="Subscribe" class="btn btn-large btn-info"/>
-                    </div>
-                </form>
+                <?php es_subbox( $namefield = "no", $desc = "", $group = "" ); ?>
                 <p>&nbsp;</p>
                 <p><a href="#" class="btn-danger">Become a sponsor</a></p>
 

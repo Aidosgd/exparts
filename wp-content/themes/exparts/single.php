@@ -5,38 +5,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+					<!-- Blog Post -->
+					<?php while ( have_posts() ) : the_post(); ?>
 					<div class="toppartline">
-						<h2>BLOG &amp; PRESS</h2>
-						<p class="headingtext">an international social network in rome for expatriates</p>
-
-
+						<h2><?php the_title(); ?></h2>
+						<p class="headingtext">by <a href="#"><?php the_author() ?></a></p>
+						<!-- Date/Time -->
+						<div class="dateandtime col-sm-6 pull-right">
+							<span class="glyphicon glyphicon-time"></span> Posted on <?php the_time('F jS, Y') ?>
+						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-8 InnerPage-text" id="BlogDetails">
-
-
-
-					<!-- Blog Post -->
-					<?php while ( have_posts() ) : the_post(); ?>
-					<!-- Title -->
-					<h1><?php the_title(); ?></h1>
-
-					<!-- Author -->
-					<div class="row">
-
-						<div class="lead col-sm-6">
-							by <a href="#"><?php the_author() ?></a>
-						</div>
-
-
-
-						<!-- Date/Time -->
-						<div class="dateandtime col-sm-6"><span class="glyphicon glyphicon-time"></span> Posted on <?php the_time('F jS, Y') ?></div>
-
-
-					</div>
-
 					<hr>
 
 					<!-- Preview Image -->

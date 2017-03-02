@@ -1209,6 +1209,21 @@ footer .caret-up {
 	border-top-color:#ccc;
 	border-left-color:#ccc;
 }
+.form-area input[type="email"]{
+	border-radius:0px;
+	height:50px;
+	background:#f0f0f0;
+	border-width:1px 0px 0px 1px;
+	font-size:12px;
+	border-top-color:#dedede;
+	border-left-color:#dedede;
+	box-shadow:1px 1px 1px rgba(0,0,0,.05);
+}
+.form-area input[type="email"]:focus{
+	background:#FFF;
+	border-top-color:#ccc;
+	border-left-color:#ccc;
+}
 .form-area textarea{
 	border-radius:0px;
 	background:#f0f0f0;
